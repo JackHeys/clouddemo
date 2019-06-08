@@ -1,0 +1,17 @@
+
+eureka:
+  client:
+    service-url:
+     defaultZone: http://localhost:8761/eureka/
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      label: master #label 表示 分支
+      server:
+        git:
+          uri: https://github.com/JackHeys/config   #git 地址
+          searchPaths: /respo #searchPaths 表示目录
+          password: jkjk7275
+          username: 18094277275@163.com
