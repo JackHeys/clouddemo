@@ -13,5 +13,5 @@ spring:
         git:
           uri: https://github.com/JackHeys/config   #git 地址
           searchPaths: /respo #searchPaths 表示目录
-          password: jkjk7275
-          username: 18094277275@163.com
+          password: ********
+          username: ********
